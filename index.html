@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alrededor de los EEUU</title>
+    <meta name="description" content="Proyecto 7 curso de desarrollo web" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, diseño responsivo, fuentes, figma, interfaces, javaScript, DOM, eventos, git, github, terminal"
+    />
+    <meta name="author" content="Efrén Espinosa" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body class="page">
+    <div class="popup">
+      <button class="popup__close-button" type="button">
+        <img src="./images/Close_Icon.png" alt="Cerrar" />
+      </button>
+      <div class="popup__container">
+        <h2 class="popup__title">Editar perfil</h2>
+        <form class="popup__form" name="register">
+          <input
+            type="text"
+            name="name"
+            placeholder="Nombre"
+            class="popup__input popup__input-name"
+          />
+          <input
+            type="text"
+            name="about"
+            placeholder="Acerca de mi"
+            class="popup__input popup__input-about"
+          />
+        </form>
+        <button class="popup__submit-button" type="submit">Guardar</button>
+      </div>
+    </div>
+    <header class="header">
+      <img
+        class="header__vector"
+        src="./images/Header.svg"
+        alt="Around the U.S."
+      />
+      <hr class="header__line" />
+    </header>
+    <main class="main">
+      <div class="profile">
+        <img
+          class="profile__avatar"
+          src="./images/Avatar.png"
+          alt="Foto de perfil"
+        />
+        <div class="profile__info">
+          <h1 class="profile__name">Jacques Cousteau</h1>
+          <button class="profile__edit-button" type="button">
+            <img
+              class="profile__edit-icon"
+              src="./images/Pencil.svg"
+              alt="Editar perfil"
+            />
+          </button>
+          <p class="profile__about">Explorer</p>
+        </div>
+        <button class="profile__addition-button" type="button">+</button>
+      </div>
+      <section class="elements">
+        <div class="card">
+          <img
+            class="card__image"
+            src="./images/Valle_de_Yosemite.png"
+            alt="Valle de Yosemite"
+          />
+          <div class="card__info">
+            <h2 class="card__title">Valle de Yosemite</h2>
+            <input class="card__like-button" type="checkbox" />
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card__image"
+            src="./images/Lago_Louise.png"
+            alt="Lago Louise"
+          />
+          <div class="card__info">
+            <h2 class="card__title">Lago Louise</h2>
+            <input class="card__like-button" type="checkbox" />
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card__image"
+            src="./images/Montañas_Calvas.png"
+            alt="Montañas Calvas"
+          />
+          <div class="card__info">
+            <h2 class="card__title">Montañas Calvas</h2>
+            <input class="card__like-button" type="checkbox" />
+          </div>
+        </div>
+        <div class="card">
+          <img class="card__image" src="./images/Latemar.png" alt="Latemar" />
+          <div class="card__info">
+            <h2 class="card__title">Latemar</h2>
+            <input class="card__like-button" type="checkbox" />
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card__image"
+            src="./images/Vanois_National.png"
+            alt="Vanois National"
+          />
+          <div class="card__info">
+            <h2 class="card__title">Vanois National</h2>
+            <input class="card__like-button" type="checkbox" />
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card__image"
+            src="./images/Lago_di_Braies.png"
+            alt="Lago di Braies"
+          />
+          <div class="card__info">
+            <h2 class="card__title">Lago di Braies</h2>
+            <input class="card__like-button" type="checkbox" />
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <p class="footer__copyright">
+          © 2024 Around The U.S. by Efrén Espinosa
+        </p>
+      </footer>
+    </main>
+    <script rel="javaScript" src="./scripts/index.js"></script>
+  </body>
+</html>
