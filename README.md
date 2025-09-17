@@ -7,3 +7,4 @@ El proyecto consiste en crear una pagina con una visual de usuario, en donde sea
 Tecnologias Utilizadas:
 HTML, CSS, diseño responsivo, fuentes, figma, interfaces, javaScript, DOM, eventos, git, github
 Enlace GITHUB:
+https://efrendeq.github.io/web_project_around/
